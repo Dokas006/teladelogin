@@ -47,5 +47,40 @@ div#imagem{
 }
 
 div#form{
+   
     padding: 20px;
+}
+
+
+
+#cadastro > label{
+    text-align: left;
+}
+
+input[type=submit]{
+
+    background-color: transparent;
+    border: 1px solid #0b1d32;
+   display: block;
+   margin: auto;
+   margin-top:10px;
+   width: 50%;
+   height: 40px;
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 20px;
+   cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    background-color: #0b1d32;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 3px 3px 3px white;
+
+}
+a{
+justify-content: end;
+display: flex;
+font-size: 0,30em;
 }

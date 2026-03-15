@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/midia.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midia.css">
 </head>
 <body>
     <main>
@@ -20,10 +20,24 @@
 
                 <form action="login.js" method="post">
 
+                    <div id="cadastro">
+                        <label for="imail">Qual seu E-main?</label>
+                        <input type="email" name="imail" id="imain">
+                    </div>
+
+                    <div id="cadastro">
+                        
+                        <label for="isenha">Qual sua senha?</label>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci minha senha</a>
                 </form>
             </div>
 
         </section>
     </main>
+
+
 </body>
 </html>
