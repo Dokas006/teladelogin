@@ -1,0 +1,111 @@
+@media screen and (min-width: 576px) and (max-width:768px)/*Medio*/ {
+
+    body{
+background: #081e4a;
+background: radial-gradient(circle, rgba(8, 30, 74, 1) 0%, rgb(34, 49, 78) 45%, rgb(11, 71, 95) 100%);
+    }
+
+    section#login{
+    background-color:#8dd4e440;
+    width: 80vw;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div#imagem{
+    background: url(../imagens/login.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+div#form{
+    
+    padding: 30px;
+}
+
+
+
+}
+
+  
+
+@media screen and (min-width: 768px) and (max-width:992px)/*grande*/ {
+    
+body{
+background: #081e4a;
+background: radial-gradient(circle, rgba(8, 30, 74, 1) 0%, rgb(19, 27, 44) 45%, rgb(6, 32, 43) 100%);
+    }
+
+    section#login{
+    background-color:#8dd4e440;
+    width: 80vw;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-position: right center;
+}
+
+div#imagem{
+    background: url(../imagens/login.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+div#form{
+    
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 992px) /*ex-grande*/ {
+
+  body{
+background: #081e4a;
+background: radial-gradient(circle, rgba(8, 30, 74, 1) 0%, rgb(19, 27, 44) 45%, rgb(6, 32, 43) 100%);
+    }
+
+    section#login{
+    background-color:#8dd4e440;
+    width: 922px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div#imagem{
+    background: url(../imagens/login.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+div#form{
+    float: ;letter-spacing: ;
+    padding: 30px;
+}
+
+
+    
+
+
+}
